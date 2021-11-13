@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity
     // TODO 06. Avoid updating the text label (userMsgTV) when the text field (userInputET) is empty
     public void showTextMessage(View view) {
 
-        if (mBinding.userMsgTV.getText() != null) {
+        if (mBinding.userInputET.getText().length()>=1) {
             mBinding.userMsgTV.setText(mBinding.userInputET.getText().toString());
         }
 
