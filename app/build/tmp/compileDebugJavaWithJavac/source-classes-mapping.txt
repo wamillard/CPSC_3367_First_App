@@ -1,0 +1,6 @@
+com/ualr/firstapp/BuildConfig.java
+ com.ualr.firstapp.BuildConfig
+com/ualr/firstapp/databinding/ActivityMainBinding.java
+ com.ualr.firstapp.databinding.ActivityMainBinding
+com/ualr/firstapp/MainActivity.java
+ com.ualr.firstapp.MainActivity
